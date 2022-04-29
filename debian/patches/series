@@ -5,3 +5,4 @@ ubuntu/aa-get-connection-apparmor-security-context.patch
 ubuntu/dont-stop-dbus.patch
 CVE-2020-12049-1.patch
 CVE-2020-12049-2.patch
+CVE-2020-35512.patch

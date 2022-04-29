@@ -1,3 +1,14 @@
+dbus (1.12.16-2ubuntu2.2) focal-security; urgency=medium
+
+  * SECURITY UPDATE: use-after-free when users share UID
+    - debian/patches/CVE-2020-35512.patch: apply
+      reference-counting to the user and group data structures
+      in dbus/dbus-userdb.h, dbus/dbus-sysdeps-unix.h,
+      dbus/dbus-userdb-util.c and dbus/dbus-userdb.c.
+    - CVE-2020-35512
+
+ -- David Fernandez Gonzalez <david.fernandezgonzalez@canonical.com>  Fri, 29 Apr 2022 14:03:28 +0200
+
 dbus (1.12.16-2ubuntu2.1) focal-security; urgency=medium
 
   * SECURITY UPDATE: DoS via file descriptor leak
